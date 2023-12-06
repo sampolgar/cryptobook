@@ -1,0 +1,6 @@
+[book]
+authors = ["Sam Polgar"]
+language = "en"
+multilingual = false
+src = "src"
+title = "cryptobook"
