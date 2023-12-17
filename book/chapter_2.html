@@ -30,6 +30,8 @@
 
         <!-- Custom theme stylesheets -->
 
+        <!-- MathJax -->
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     </head>
     <body class="sidebar-visible no-js">
     <div id="body-container">
@@ -88,7 +90,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="chapter_1.html"><strong aria-hidden="true">1.</strong> Chapter 1</a></li><li class="chapter-item expanded "><a href="chapter_2.html" class="active"><strong aria-hidden="true">2.</strong> Chapter 2</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="chapter_1.html"><strong aria-hidden="true">1.</strong> Chapter 1</a></li><li class="chapter-item expanded "><a href="chapter_2.html" class="active"><strong aria-hidden="true">2.</strong> Chapter 2</a></li><li class="chapter-item expanded "><a href="chapter_3.html"><strong aria-hidden="true">3.</strong> Chapter 3</a></li><li class="chapter-item expanded "><a href="number_theory/1_number_theory.html"><strong aria-hidden="true">4.</strong> Number Theory</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="number_theory/2_set_theory.html"><strong aria-hidden="true">4.1.</strong> Set Theory</a></li><li class="chapter-item expanded "><a href="number_theory/3_group_theory.html"><strong aria-hidden="true">4.2.</strong> Group Theory</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -173,8 +175,17 @@
 
                 <div id="content" class="content">
                     <main>
-                        <p>Vanishing polynomial``
+                        <p>Vanishing polynomial
 https://chat.openai.com/c/a8acfddc-868b-47a5-954b-d22316e34094</p>
+<p>Schwartz Zippel</p>
+<ul>
+<li>in G16, we have UaVa poly on lhs, Wa + h(t)t(t) on rhs. lhs evaluated at tau, rhs evaluated at tau should be equal</li>
+</ul>
+<p>G16</p>
+<ul>
+<li>Zero Vector (not y = 0, vector that's 0 at x = 1, 2, 3)</li>
+<li>Homomorphism (scaling vector = scaling polynomial)</li>
+</ul>
 
                     </main>
 
@@ -184,6 +195,9 @@ https://chat.openai.com/c/a8acfddc-868b-47a5-954b-d22316e34094</p>
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
+                            <a rel="next prefetch" href="chapter_3.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
 
                         <div style="clear: both"></div>
                     </nav>
@@ -195,26 +209,13 @@ https://chat.openai.com/c/a8acfddc-868b-47a5-954b-d22316e34094</p>
                         <i class="fa fa-angle-left"></i>
                     </a>
 
+                    <a rel="next prefetch" href="chapter_3.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
             </nav>
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script>
-            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
-            const socket = new WebSocket(wsAddress);
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
 
 
 
