@@ -27,3 +27,7 @@ o Coefficients
 • Different ways to constraint a polynomial
 • Ensuring the prover uses a polynomial (Lowest Degree Test)
 • Homomorphism
+
+Resources
+• Schwartz Zippel Lemma: dankrad fiest https://dankradfeist.de/ethereum/2023/08/08/sumcheck-quickie.html
+• https://hackmd.io/@vbuterin/snarks#An-approximate-introduction-to-how-zk-SNARKs-are-possible
