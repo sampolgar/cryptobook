@@ -31,3 +31,6 @@ o Coefficients
 Resources
 • Schwartz Zippel Lemma: dankrad fiest https://dankradfeist.de/ethereum/2023/08/08/sumcheck-quickie.html
 • https://hackmd.io/@vbuterin/snarks#An-approximate-introduction-to-how-zk-SNARKs-are-possible
+
+- https://en.wikipedia.org/wiki/Polynomial_ring#Polynomial_evaluation
+- http://www0.cs.ucl.ac.uk/staff/J.Groth/PolynomialZK.pdf
