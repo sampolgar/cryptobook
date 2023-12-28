@@ -34,3 +34,5 @@ Resources
 
 - https://en.wikipedia.org/wiki/Polynomial_ring#Polynomial_evaluation
 - http://www0.cs.ucl.ac.uk/staff/J.Groth/PolynomialZK.pdf
+- https://medium.com/@finefood1313/polynomials-the-math-behind-zero-knowledge-proofs-b0e443c26d1e
+- https://www.youtube.com/watch?v=HXfZqm9DGLU
